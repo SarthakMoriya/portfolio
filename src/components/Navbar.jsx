@@ -3,6 +3,7 @@ import logo from '../assets/logo1.png'
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs'
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -14,11 +15,26 @@ const Navbar = () => {
             </div>
             {/* Menu */}
             <ul className='hidden md:flex'>
-                <li>Home</li>
-                <li>About</li>
-                <li>Skills</li>
-                <li>Work</li>
-                <li>Contact</li>
+                <li className=''>
+                    <Link to="home" smooth={true} duration={500} >
+                        Home
+                    </Link></li>
+                <li className=''>
+                    <Link to="about" smooth={true} duration={500} >
+                        About
+                    </Link></li>
+                <li className=''>
+                    <Link to="skills" smooth={true} duration={500} >
+                        Skills
+                    </Link></li>
+                <li className=''>
+                    <Link to="work" smooth={true} duration={500} >
+                        Work
+                    </Link></li>
+                <li className=''>
+                    <Link to="contact" smooth={true} duration={500} >
+                        Contact
+                    </Link></li>
             </ul>
             {/* Hamburger */}
             <div className="md:hidden z-10" onClick={handleNavbar}>
@@ -27,11 +43,27 @@ const Navbar = () => {
             {/* Mobile Menu */}
             {nav && (
                 <ul className=' absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center '>
-                    <li className='text-4xl py-6'>Home</li>
-                    <li className='text-4xl py-6'>About</li>
-                    <li className='text-4xl py-6'>Skills</li>
-                    <li className='text-4xl py-6'>Work</li>
-                    <li className='text-4xl py-6'>Contact</li>
+                    <li className='text-4xl py-6'>
+                        <Link onClick={handleNavbar} to="home" smooth={true} duration={500} >
+                            Home
+                        </Link></li>
+                    <li className='text-4xl py-6'>
+                        <Link onClick={handleNavbar} to="about" smooth={true} duration={500} >
+                            About
+                        </Link></li>
+                    <li className='text-4xl py-6'>
+                        <Link onClick={handleNavbar} to="skills" smooth={true} duration={500} >
+                            Skills
+                        </Link></li>
+                    <li className='text-4xl py-6'>
+                        <Link onClick={handleNavbar} to="work" smooth={true} duration={500} >
+                            Work
+                        </Link></li>
+                    <li className='text-4xl py-6'>
+                        <Link onClick={handleNavbar} to="contact" smooth={true} duration={500} >
+                            Contact
+                        </Link></li>
+
                 </ul>
             )}
             {/* social Links */}

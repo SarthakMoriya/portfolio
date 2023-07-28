@@ -4,7 +4,7 @@ import workimg from '../assets/projects/workImg.jpeg'
 
 const Work = () => {
     return (
-        <div className='bg-[#0a192f] w-full h-screen text-gray-300'>
+        <div name='work' className='bg-[#0a192f] w-full h-screen text-gray-300'>
             {/* Container */}
             <div className="max-w-[1000px] mx-auto flex flex-col justify-center w-full h-full">
                 <div className="pb-8">
