@@ -1,6 +1,13 @@
 import React from 'react'
 
 import workimg from '../assets/projects/workImg.jpeg'
+import gym from '../assets/projects/gym.png';
+import stack from '../assets/projects/stackoverflow.png';
+import dalle from '../assets/projects/dalle.png';
+import farmer from '../assets/projects/farmer.png';
+import youtube from '../assets/projects/youtube.png';
+import netflix from '../assets/projects/netflix.png';
+import social from '../assets/projects/sociopedia.png';
 
 const Work = () => {
     return (
@@ -17,16 +24,14 @@ const Work = () => {
                     className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
                     {/* Hover-div */}
                     <div
-                        style={{ backgroundImage: `url(${workimg})` }}
+                        style={{ backgroundImage: `url(${stack})` }}
                         className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
                         <div className="opacity-0 group-hover:opacity-100">
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                ReactJS Application
+                               StackOverflow Clone
                             </span>
                             <div className="pt-8 text-center">
-                                <a href="/">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold'>Demo</button>
-                                </a>
+
                                 <a href="/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold'>Code</button>
                                 </a>
@@ -34,85 +39,72 @@ const Work = () => {
                         </div>
                     </div>
                     <div
-                        style={{ backgroundImage: `url(${workimg})` }}
+                        style={{ backgroundImage: `url(${farmer})` }}
                         className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
                         <div className="opacity-0 group-hover:opacity-100">
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                ReactJS Application
+                                Farmer Ecommerce App
                             </span>
                             <div className="pt-8 text-center">
-                                <a href="/">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold'>Demo</button>
-                                </a>
-                                <a href="/">
+                                <a href="https://github.com/SarthakMoriya/Hackathon">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold'>Code</button>
                                 </a>
                             </div>
                         </div>
                     </div>
                     <div
-                        style={{ backgroundImage: `url(${workimg})` }}
+                        style={{ backgroundImage: `url(${dalle})` }}
                         className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
                         <div className="opacity-0 group-hover:opacity-100">
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                ReactJS Application
+                                Dall-E AI Image Generator
                             </span>
                             <div className="pt-8 text-center">
-                                <a href="/">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold'>Demo</button>
-                                </a>
-                                <a href="/">
+                                <a href="https://github.com/SarthakMoriya/Dalle-OpenAI-AI-Image-Generator">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold'>Code</button>
                                 </a>
                             </div>
                         </div>
                     </div>
                     <div
-                        style={{ backgroundImage: `url(${workimg})` }}
+                        style={{ backgroundImage: `url(${social})` }}
                         className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
                         <div className="opacity-0 group-hover:opacity-100">
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                ReactJS Application
+                                Sociopedia App
                             </span>
                             <div className="pt-8 text-center">
-                                <a href="/">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold'>Demo</button>
-                                </a>
-                                <a href="/">
+                                <a href="https://github.com/SarthakMoriya/sociopedia3">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold'>Code</button>
                                 </a>
                             </div>
                         </div>
                     </div>
                     <div
-                        style={{ backgroundImage: `url(${workimg})` }}
+                        style={{ backgroundImage: `url(${youtube})` }}
                         className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
                         <div className="opacity-0 group-hover:opacity-100">
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                ReactJS Application
+                                Youtube Clone
                             </span>
                             <div className="pt-8 text-center">
-                                <a href="/">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold'>Demo</button>
-                                </a>
-                                <a href="/">
+
+                                <a href="https://github.com/SarthakMoriya/YoutubeClone">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold'>Code</button>
                                 </a>
                             </div>
                         </div>
                     </div>
                     <div
-                        style={{ backgroundImage: `url(${workimg})` }}
+                        style={{ backgroundImage: `url(${gym})` }}
                         className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
                         <div className="opacity-0 group-hover:opacity-100">
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                ReactJS Application
+                                Gym Excercise Finder
                             </span>
                             <div className="pt-8 text-center">
-                                <a href="/">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold'>Demo</button>
-                                </a>
-                                <a href="/">
+
+                                <a href="https://github.com/SarthakMoriya/gymApp">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold'>Code</button>
                                 </a>
                             </div>

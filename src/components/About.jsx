@@ -17,7 +17,8 @@ const About = () => {
                         <p>I'm Sarthak, nice to meet you. Please take a look around</p>
                     </div>
                     <div className="">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem recusandae nemo totam magni eligendi deleniti! Et quidem fuga ut repellendus sunt iure nihil odio dolore fugit? Quod soluta accusantium ipsam?
+                        <p>
+                            Aspiring Full Stack MERN developer with a passion for crafting innovative web applications. Skilled in React, Node.js, Express.js, and MongoDB. Committed to delivering user-centric and efficient solutions. Eager to collaborate and contribute to exciting projects. Let's turn ideas into reality together!
                         </p>
                     </div>
                 </div>
