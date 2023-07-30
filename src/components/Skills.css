@@ -1,0 +1,12 @@
+@media screen and (max-width: 500px) {
+  .skills-grid > div > img {
+    width: 2rem;
+  }
+  .skills-grid > div > p {
+      font-size: 15px;
+    }
+  .skills-grid > div  {
+      height: 100px;
+    }
+    
+}
